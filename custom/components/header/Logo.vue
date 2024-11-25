@@ -1,3 +1,3 @@
 <template>
-    <img src="/w3-world-logo.svg" class="h-24 px-3 py-3" alt="">
+    <img src="/3d-world-logo.svg" class="h-24 px-3 py-3" alt="">
 </template>
