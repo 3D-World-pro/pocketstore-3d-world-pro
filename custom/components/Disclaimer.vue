@@ -1,5 +1,5 @@
 <template>
-    <div class="alert alert-error text-white mx-3 md:mx-auto">
+    <div class="alert alert-error text-white md:mx-auto px-3 xl:px-0">
         <Fa :icon="faCircleInfo" />
         <p class="text-sm">
             Dies ist ein Demo Store von PocketStore.io. Docs and Getting Started ->
