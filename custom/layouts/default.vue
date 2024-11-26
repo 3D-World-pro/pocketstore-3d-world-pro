@@ -23,6 +23,15 @@ import Header from '~/components/Header.vue';
 
 const store = useBreadcrumbStore();
 
+useHead({
+    src: '/particles.min.js',
+    onload: () => {
+        particlesJS.load('particles-js', 'assets/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    }
+});
+
 onMounted(() => {
     tracking.trackPage()
     store.clear()

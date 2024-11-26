@@ -2,7 +2,7 @@
     <div v-if="product" class="card shadow-xl bg-white">
       <figure>
         <a :href="'/' + locale + '/product/' + product.slug + '.html'">
-          <img src="/3d-printer-product.jpg" alt="Shoes">
+          <img src="/printer-product.jpg" alt="Shoes">
         </a>
       </figure>
       <div class="card-body">
