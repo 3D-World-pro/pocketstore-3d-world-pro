@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex items-end mb-3">
+    <nav class="md:items-end mb-3 hidden md:flex">
         <ul class="flex space-x-6 mr-3">
             <li>
                 <a href="/" class="btn btn-sm">Test 123</a>
