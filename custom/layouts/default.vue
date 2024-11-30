@@ -1,9 +1,9 @@
 <template>
-    <section class="bg-gray-300 min-h-screen">
+    <section class="min-h-screen -z-2">
         <header class="mx-auto max-w-6xl">
             <Header />
         </header>
-        <main class="mx-auto max-w-6xl min-h-screen px-3 md:px-0">
+        <main class="mx-auto max-w-6xl min-h-screen px-3">
             <Messages />
             <Breadcrumb />
             <CookieBanner />
@@ -12,6 +12,7 @@
         <footer class="">
             <Footer />
         </footer>
+        <Particles />
     </section>
 </template>
 <script setup lang="ts">
@@ -20,6 +21,7 @@ import tracking from '~/util/tracking';
 import { useBreadcrumbStore } from '~/stores/breadcrumb';
 import Footer from '~/components/Footer.vue';
 import Header from '~/components/Header.vue';
+import Particles from '../components/Particles.vue';
 
 const store = useBreadcrumbStore();
 
