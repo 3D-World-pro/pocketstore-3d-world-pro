@@ -17,7 +17,7 @@ useHead({
 
 <template>
     <section class="page">
-        <div class="mx-auto max-w-6xl grid grid-cols-6 gap-3">
+        <div class="mx-auto max-w-6xl grid grid-cols-6 gap-3 bg-white rounded-lg">
             <CatalogProductGrid category-name="Welcome" />
         </div>
     </section>
