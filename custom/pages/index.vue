@@ -10,41 +10,47 @@ storeBreadcrumb.clear();</script>
         <div class="mx-auto max-w-6xl grid grid-cols-6 gap-3">
             <HomepageHero />
             <div class="col-span-6">
-                <div class="grid grid-cols-6 gap-3 my-12 bg-white rounded-lg py-12 border-[#44cfb3] border-2">
-                    <div class="col-span-6 md:col-span-2 text-center">
+                <div class="grid grid-cols-6 gap-3 my-12">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faUser" color="#44cfb3" size="4x" />
                         </section>
                         <h2 class="font-bold text-black">Von Kunden</h2>
                         <p class="text-sm text-center">empfohlen</p>
                     </div>
-                    <div class="col-span-6 md:col-span-2 text-center">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faStar" color="#44cfb3" size="4x" />
                         </section>
                         <h2 class="font-bold text-black mt-3">Top Bewertungen</h2>
                     </div>
-                    <div class="col-span-6 md:col-span-2 text-center">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faCheck" color="#44cfb3" size="4x" />
                         </section>
                         <h2 class="font-bold text-black">Erfolgreich getestet</h2>
                     </div>
                 </div>
-                <div class="grid grid-cols-6 gap-3 my-12 bg-white rounded-lg py-12 border-[#44cfb3] border-2">
-                    <div class="col-span-6 md:col-span-2 text-center">
+                <div class="grid grid-cols-6 gap-3 my-12">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center  bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faUser" color="#44cfb3" size="4x" />
                         </section>
                         <h2 class="font-bold text-black">Hallo Welt</h2>
                     </div>
-                    <div class="col-span-6 md:col-span-2 text-center">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faUser" color="#44cfb3" size="4x" />
                         </section>
                         <h2 class="font-bold text-black">Hallo Welt</h2>
                     </div>
-                    <div class="col-span-6 md:col-span-2 text-center">
+                    <div
+                        class="col-span-6 md:col-span-2 text-center bg-white border-[#44cfb3] border-2 rounded-lg py-12">
                         <section class="rounded-lg flex justify-center">
                             <Fa :icon="faUser" color="#44cfb3" size="4x" />
                         </section>
