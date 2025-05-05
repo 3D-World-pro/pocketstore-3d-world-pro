@@ -1,9 +1,7 @@
 <script setup>
-import { useBreadcrumbStore } from '~/stores/breadcrumb';
 import { faEdit, faUser, faStar, faCheck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome'
-const storeBreadcrumb = useBreadcrumbStore();
-storeBreadcrumb.clear();</script>
+</script>
 
 <template>
     <section class="page">
